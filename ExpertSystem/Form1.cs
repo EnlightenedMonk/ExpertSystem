@@ -16,6 +16,7 @@ namespace ExpertSystem
 
         List<Node> Nodes = new List<Node>();
 
+
         public int activeNode = 0;
 
         public String errorFile = @"img\ErrorFile.png";
