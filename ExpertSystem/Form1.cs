@@ -1,21 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ExpertSystem
 {
     public partial class Form1 : Form
     {
-
         List<Node> Nodes = new List<Node>();
-
 
         public int activeNode = 0;
 
@@ -85,18 +78,12 @@ namespace ExpertSystem
         {
             if (activeNode < 21)
             {
-                txtQuestion.Text = String.Empty;
-                txtQuestion.Text = Nodes[activeNode].text.ToString();
-
-                txtQuestion.Text = String.Empty;
                 txtQuestion.Text = Nodes[activeNode].text.ToString();
             }
             else
             {
                 btnNo.Enabled = false;
                 btnYes.Enabled = false;
-
-                txtQuestion.Text = Nodes[activeNode].text.ToString();
 
                 txtQuestion.Text = Nodes[activeNode].text.ToString();
 
