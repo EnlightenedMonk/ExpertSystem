@@ -68,6 +68,7 @@
             // 
             resources.ApplyResources(this.txtQuestion, "txtQuestion");
             this.txtQuestion.Name = "txtQuestion";
+            this.txtQuestion.ReadOnly = true;
             // 
             // Form1
             // 
